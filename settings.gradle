@@ -6,4 +6,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "GroovyToKtolinkDsl"
+//TODO Step 1: replace single quotation mark with double quotation mark
 include ':app'
