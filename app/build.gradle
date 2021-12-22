@@ -29,6 +29,8 @@ android {
             // to assign the value as we learned in Step 4
             minifyEnabled false
             //TODO Step 1: replace single quotation mark with double quotation mark
+            //TODO Step 6 Use function call with parentheses instead of property assignment
+            // [proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"),proguardFile)]
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
