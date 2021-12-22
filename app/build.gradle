@@ -7,6 +7,8 @@ plugins {
 }
 
 android {
+    //TODO Step 4 : using the = operator while assigning value to a variable
+    // as in Groovy you can skip the = assignment operator
     compileSdk 31
 
     defaultConfig {
