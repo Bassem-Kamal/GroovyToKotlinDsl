@@ -29,6 +29,8 @@ android {
         }
     }
     compileOptions {
+        //TODO Step 4 : using the = operator while assigning value to a variable
+        // as in Groovy you can skip the = assignment operator
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
