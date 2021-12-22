@@ -16,6 +16,11 @@ buildscript {
     }
 }
 
+//TODO Step 3 register your tasks
+// you will use [tasks.register("clean",  Delete::class)]
+// where register is an extension function for TaskContainer class
+// with String parameter for task name and ConventionTask class which is Delete in this task
+// and function call for delete [delete(rootProject.buildDir)]
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
