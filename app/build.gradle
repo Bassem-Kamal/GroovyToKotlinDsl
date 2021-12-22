@@ -1,5 +1,6 @@
 plugins {
     //TODO Step 1: replace single quotation mark with double quotation mark
+    //TODO Step 2 :Using function calls instead of property assignment used by Groovy [id("your plugin")]
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
@@ -37,6 +38,7 @@ android {
 
 dependencies {
 //TODO Step 1: replace single quotation mark with double quotation mark
+//TODO Step 2 :Using function calls instead of property assignment used by Groovy [implementation("your dependency")]
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
