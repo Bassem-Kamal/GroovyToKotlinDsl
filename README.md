@@ -30,3 +30,10 @@
 ##### on the other hand it's mandatory in Kotlin syntax so, we have to use the = operator to assign the 21 Integer value for the property minSdk and so on for any property
     minSdk = 21
     targetSdk = 31
+
+## Step 5 ( renaming boolean variables to use "is" )
+##### we can see here in groovy for example
+    minifyEnabled false
+##### minifyEnabled is a boolean variable, so it's a good practice to use "is" as a prefix for boolean variables in all programming languages and kotlin use that naming convention also, so it will be
+    isMinifyEnabled = true
+    
