@@ -6,6 +6,13 @@
 
 ##### you will find TODO for every step required to migrate our project from Groovy to KotlinDsl and all of those steps is about the syntax.
 
+## Renaming gradle files
+
+#### since we will use kotlin as our programming language for gradle, so we need to rename our gradle files to support kotlin language syntax by renaming the file for example
+    setting.gradle
+#### to be
+    setting.gradle.kts
+
 ## Step 1 (single quotation to double quotation )
 
 ##### this step to replace single quotation mark with double quotation mark in any .gradle file and that's because in Groovy we can use single quotation or double quotation for String value, but in Kotlin syntax we use double quotation and we can use the power of Android studio here by simply choose Edit/Find/Replace (ctrl+r) and repeat this step for every .gradle file.
