@@ -8,7 +8,6 @@ buildscript {
         // it will be written this way [maven("https://jitpack.io")]
     }
     dependencies {
-        //TODO Step 1: replace single quotation mark with double quotation mark
         //TODO Step 2 :Using function calls instead of property assignment used by Groovy [classpath("your classpath")]
         classpath "com.android.tools.build:gradle:7.0.4"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
