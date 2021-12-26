@@ -6,5 +6,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "GroovyToKtolinkDsl"
-//TODO Step 2 :Using function calls instead of property assignment used by Groovy [include(":app")]
-include ":app"
+include(":app")
