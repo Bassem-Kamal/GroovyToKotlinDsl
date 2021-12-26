@@ -54,7 +54,7 @@ dependencies {
     implementation depends.activity_ktx
     implementation depends.retrofit
     implementation depends.retrofit_converter_gson
-    implementation depends.retrofit2-kotlin-coroutines-adapter
+    implementation depends.retrofit2_kotlin_coroutines_adapter
 
 
     testImplementation testDepends.junit
