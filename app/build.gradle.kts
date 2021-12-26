@@ -5,18 +5,16 @@ plugins {
 }
 
 android {
-    //TODO Step 4 : using the = operator while assigning value to a variable
-    // as in Groovy you can skip the = assignment operator
-    compileSdk 31
+    compileSdk = 31
 
     defaultConfig {
-        applicationId "com.example.groovytoktolinkdsl"
-        minSdk 21
-        targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        applicationId = "com.example.groovytoktolinkdsl"
+        minSdk = 21
+        targetSdk = 31
+        versionCode = 1
+        versionName = "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -32,10 +30,8 @@ android {
         }
     }
     compileOptions {
-        //TODO Step 4 : using the = operator while assigning value to a variable
-        // as in Groovy you can skip the = assignment operator
-        sourceCompatibility JavaVersion . VERSION_1_8
-                targetCompatibility JavaVersion . VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
         jvmTarget = "1.8"
