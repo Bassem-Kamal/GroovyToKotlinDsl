@@ -51,4 +51,8 @@
     minifyEnabled false
 ##### minifyEnabled is a boolean variable, so it's a good practice to use "is" as a prefix for boolean variables in all programming languages and kotlin use that naming convention also, so it will be
     isMinifyEnabled = true
-    
+
+## Finally sync your project to apply the changes we made and you should see
+    BUILD SUCCESSFUL in 17s
+
+# Congratulation !! :clap: :clap: :clap:
