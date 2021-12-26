@@ -5,14 +5,15 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk config.compileSdk
 
     defaultConfig {
-        applicationId "com.example.groovytoktolinkdsl"
-        minSdk 21
-        targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        applicationId config.applicationId
+        minSdk config.minSdk
+        targetSdk config.targetSdk
+        versionCode config.versionCode
+        versionName config.versionName
+
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

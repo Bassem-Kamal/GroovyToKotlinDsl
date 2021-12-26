@@ -4,6 +4,16 @@ buildscript {
         google()
         mavenCentral()
     }
+
+    ext.config = [
+            'compileSdk' : 31,
+            'applicationId':"com.example.groovytoktolinkdsl",
+            'minSdk'     : 21,
+            'targetSdk'  : 31,
+            'versionCode': 1,
+            'versionName': "1.0",
+    ]
+
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.4"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
