@@ -9,9 +9,9 @@
 ## Renaming gradle files
 
 #### since we will use kotlin as our programming language for gradle, so we need to rename our gradle files to support kotlin language syntax by renaming the file for example
-    setting.gradle
+    settings.gradle
 #### to be
-    setting.gradle.kts
+    settings.gradle.kts
 
 ## Step 1 (single quotation to double quotation )
 
@@ -26,7 +26,15 @@
     id("com.android.application")
 ## Step 3 ( register gradle tasks )
 
-##### 
+##### A Task represents a single atomic piece of work for a build, such as compiling classes or generating javadoc.
+##### In groovy we used task function in Project interface which is basically a project extension and call clean Task action and call delete function which take the target object (path) to delete
+    task clean(type: Delete) {
+    delete rootProject.buildDir
+    }
+##### In kotlin we use ProjectDelegate abstract class which is basically (Facilitates the implementation of the [Project] interface by delegation via subclassing) so we call getTasks() from delegate abstract property which return TaskContainer then we call an extension function for TaskContainer which take the name of that task and the responsible class for the task to use it's function inside the tasks block.
+    tasks.register("clean", Delete::class) {
+    delete(rootProject.buildDir)
+    }
 
 ## Step 4 (using the = operator for property assignment )
 
