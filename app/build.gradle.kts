@@ -18,11 +18,7 @@ android {
     }
     buildTypes {
         release {
-            //TODO Step 5 renaming boolean variables to use "is"
-            // as a prefix to the variable name continued with camel case
-            // [ minifyEnabled --> isMinifyEnabled ] and use the = operator
-            // to assign the value as we learned in Step 4
-            minifyEnabled false
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
