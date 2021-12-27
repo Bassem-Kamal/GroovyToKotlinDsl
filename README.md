@@ -8,7 +8,7 @@
 
 ## Renaming gradle files
 
-#### since we will use kotlin as our programming language for gradle, so we need to rename our gradle files to support kotlin language syntax by renaming the file for example
+#### since we will use kotlin Dsl as our programming language for gradle, so we need to rename our gradle files to support kotlin language syntax by renaming the file to have the .kts extension (kts Stands for Kotlin Script) for example
     settings.gradle
 #### to be
     settings.gradle.kts
