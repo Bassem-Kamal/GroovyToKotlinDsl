@@ -5,14 +5,14 @@ plugins {
 }
 
 android {
-    compileSdk = 31
+    compileSdk = Config.COMPILE_SDK
 
     defaultConfig {
-        applicationId = "com.example.groovytoktolinkdsl"
-        minSdk = 21
-        targetSdk = 31
-        versionCode = 1
-        versionName = "1.0"
+        applicationId = Config.APPLICATION_ID
+        minSdk = Config.MIN_SDK
+        targetSdk = Config.TARGET_SDK
+        versionCode = Config.VERSION_CODE
+        versionName = Config.VERSION_NAME
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -74,4 +74,13 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
+}
+
+object Config {
+    const val COMPILE_SDK = 31
+    const val APPLICATION_ID = "com.example.groovytoktolinkdsl"
+    const val MIN_SDK = 21
+    const val TARGET_SDK = 31
+    const val VERSION_CODE = 1
+    const val VERSION_NAME = "1.0"
 }
