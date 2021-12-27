@@ -84,3 +84,26 @@ object Config {
     const val VERSION_CODE = 1
     const val VERSION_NAME = "1.0"
 }
+
+object Versions {
+    const val ANDROIDX_CORE = "1.7.0"
+    const val APPCOMPAT = "1.4.0"
+    const val MATERIAL_DESIGN = "1.4.0"
+    const val CONSTRAINT_LAYOUT = "2.1.2"
+    const val PICASSO = "2.71828"
+    const val CIRCLE_IMAGEVIEW = "3.1.0"
+    const val VIEW_PAGER_2 = "1.0.0"
+    const val COROUTINES = "1.5.2"
+    const val VIEW_MODEL = "2.4.0"
+    const val LIVEDATA = "2.4.0"
+    const val NAVIGATION = "2.3.5"
+    const val ROOM = "2.4.0"
+    const val LEGACY_SUPPORT_V4 = "1.0.0"
+    const val DATA_STORE = "1.0.0"
+    const val ACTIVITY_KTX = "1.4.0"
+    const val RETROFIT_2 = "2.9.0"
+    const val RETROFIT_2_COROUTINES_ADAPTER = "0.9.2"
+    const val JUNIT = "4.13.2"
+    const val ANDROIDX_TEST_JUNIT = "1.1.3"
+    const val ANDROIDX_TEST_ESPRESSO = "3.4.0"
+}
