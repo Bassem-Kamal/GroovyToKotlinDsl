@@ -71,9 +71,9 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2")
 
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.3")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
+    testImplementation(TestDepends.JUNIT)
+    androidTestImplementation(TestDepends.ANDROIDX_TEST_JUNIT)
+    androidTestImplementation(TestDepends.ANDROIDX_TEST_ESPRESSO)
 }
 
 object Config {
@@ -106,4 +106,11 @@ object Versions {
     const val JUNIT = "4.13.2"
     const val ANDROIDX_TEST_JUNIT = "1.1.3"
     const val ANDROIDX_TEST_ESPRESSO = "3.4.0"
+}
+
+object TestDepends {
+    const val JUNIT = "junit:junit:${Versions.JUNIT}"
+    const val ANDROIDX_TEST_JUNIT = "androidx.test.ext:${Versions.JUNIT}"
+    const val ANDROIDX_TEST_ESPRESSO =
+        "androidx.test.espresso:espresso-core:${Versions.ANDROIDX_TEST_ESPRESSO}"
 }
